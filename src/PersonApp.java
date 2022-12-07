@@ -2,8 +2,7 @@ public class PersonApp {
     public static void main(String[] args) {
 
         var person1 = new Person("Sigit", "Tulungrejo");
-        person1.name = "Sigit";
-        person1.address = "Tulungrejo";
+
 //        person1.country = "Amerika"; // ERROR
 
         System.out.println(person1.name);
