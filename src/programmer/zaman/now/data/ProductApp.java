@@ -12,5 +12,6 @@ public class ProductApp {
         Product product2 = new Product("Mac Book Pro", 30000000);
 
         System.out.println(product.equals(product2));
+        System.out.println(product.hashCode() == product2.hashCode());
     }
 }

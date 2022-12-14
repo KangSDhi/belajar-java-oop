@@ -29,6 +29,13 @@ public class Product {
         return Objects.equals(name, product.name);
     }
 
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + price;
+        return result;
+    }
+
     //    public boolean equals(Object o) {
 //        if (o == this){
 //            return true;
