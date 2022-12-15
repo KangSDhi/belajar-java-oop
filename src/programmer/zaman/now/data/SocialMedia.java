@@ -4,11 +4,15 @@ class SocialMedia {
     String name;
 }
 
-final class Facebook extends SocialMedia{
-
+class Facebook extends SocialMedia{
+    final void login(String username, String password){
+        // isi method
+    }
 }
 
-// ERROR
-//class FakeFacebook extends Facebook {
-//
-//}
+class FakeFacebook extends Facebook {
+    // ERROR
+    // void login(String username, String password){
+        // isi method
+    // }
+}
